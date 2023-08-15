@@ -1,0 +1,100 @@
+/* define Cantarell fonts used start*/
+@font-face {
+    font-family: "Cantarell";
+    src: url(cantarell/Cantarell-Regular.ttf);
+  }
+@font-face {
+    font-family: "Cantarell";
+    src: url(cantarell/Cantarell-Bold.ttf);
+    font-weight: bold;
+  }
+/* end */
+
+body {
+    font-family: "Cantarell";
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* restyling the bootstrap navbar start */
+.navbar {
+    background-color: rgb(15, 15, 15) !important;
+    color: white !important;
+    width: 100%;
+    font-size: 16 !important; 
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.dropdown-menu {
+    align-items: flex-end;
+    left: -88% !important;
+    background-color: rgb(15, 15, 15);
+    border-color: rgb(50, 50, 50);
+    border-radius: 12px;
+    color: white !important;
+}
+
+.btn-dropdown{
+    color: white !important;
+    margin-left: 0.75vh !important;
+}
+
+.btn-dropdown:hover {
+    background-color: rgb(50, 50, 50);
+    border-radius: 8px;
+}
+
+.btn-dropdown:active {
+    border-radius: 8px;
+}
+
+.active {
+    border-radius: 8px;
+    background-color: rgb(100, 100, 100) !important;
+    border-color: transparent !important;
+}
+/* end */
+
+/* style the card section carrying the problem start */
+.card {
+    margin-top: 43vh;
+    background: transparent !important;
+}
+
+.card-body {
+    align-items: center !important;
+    display: grid;
+}
+
+#problem {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 23px;
+}
+
+.form-control {
+    border-radius: 12px;
+    margin-right: 0.5vh !important;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-color:rgb(100, 100, 100);
+    border-width: 1.5px;
+    background-color: white;
+}
+
+
+.btn-light {
+    border-radius: 12px;
+    margin-left: 0px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+/* end */
